@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      console.log('hi')
+      const base_url = ''`${base_url}/breed/list/`
+      base_url + 'breed/list/'
+      setTimeout(function () {
+        console.log('BROTHER')
+      }, 0)
+      console.log('bye')
+
+      // breed list
+      axios
+        .get(url)
+        .then(
+          //
+          axios.get(url2).then(console.log(response))
+        )
+        .catch()
+
+      //   axios({
+      //     method: "", // 이런식으로 하기로 약속
+      //     url: "breed_list", // 뭔지 가독성을 위해
+      //     data: {},
+      //     header: {}
+      //   });
+    </script>
+  </body>
+</html>
