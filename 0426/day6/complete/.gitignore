@@ -1,48 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
-
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
-
-# Local History for Visual Studio Code
-.history/
-
-# Built Visual Studio Code Extensions
-*.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
-
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
-
-# Created by https://www.toptal.com/developers/gitignore/api/obsidian
-# Edit at https://www.toptal.com/developers/gitignore?templates=obsidian
-
-### Obsidian ###
-# config dir
-.obsidian/
-
-# End of https://www.toptal.com/developers/gitignore/api/obsidian
-
-# Created by https://www.toptal.com/developers/gitignore/api/django,venv,database
-# Edit at https://www.toptal.com/developers/gitignore?templates=django,venv,database
-
-### Database ###
-*.accdb
-*.db
-*.dbf
-*.mdb
-*.pdb
-*.sqlite3
-*.db-shm
-*.db-wal
+# Created by https://www.toptal.com/developers/gitignore/api/django,venv,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=django,venv,visualstudiocode
 
 ### Django ###
 *.log
@@ -226,4 +183,23 @@ cython_debug/
 pyvenv.cfg
 pip-selfcheck.json
 
-# End of https://www.toptal.com/developers/gitignore/api/django,venv,database
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/django,venv,visualstudiocode
